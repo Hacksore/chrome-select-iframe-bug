@@ -2,7 +2,7 @@ import "./App.css";
 
 const FRAME_URL =
   process.env.NODE_ENV === "production"
-    ? `https://${process.env.VECEL_URL}`
+    ? `https://chrome-select-iframe-bug-isolated.vercel.app`
     : "http://localhost:3001";
 
 function App() {
